@@ -1,0 +1,4 @@
+dashboard-mfe/.angular/*
+dashboard-mfe/node_modules/*
+shell/.angular/*
+shell/node_modules/*
