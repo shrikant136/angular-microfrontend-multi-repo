@@ -1,5 +1,4 @@
 dashboard-mfe/.angular/*
-dashboard-mfe/node_modules/
-dashboard-mfe/node_modules/.package-lock.json
+dashboard-mfe/node_modules/*
 shell/.angular/*
 shell/node_modules/*
