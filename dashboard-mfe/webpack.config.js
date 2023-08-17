@@ -7,6 +7,8 @@ module.exports = withModuleFederationPlugin({
   exposes: {
     // List of modules that the application will export as remote to another application
     "./RemoteMfeModule": "./src/app/remote-mfe/remote-mfe.module.ts",
+    "./MfeFragmentComponent":
+      "./src/app/remote-mfe/mfe-fragment/mfe-fragment.component.ts",
   },
   shared: {
     ...shareAll({
